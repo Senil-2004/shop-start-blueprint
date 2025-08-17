@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 240 10% 98%;
+    --background: 250 100% 98%;
     --foreground: 240 10% 8%;
 
     --card: 0 0% 100%;
@@ -17,24 +17,24 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 8%;
 
-    --primary: 221 83% 53%;
+    --primary: 180 78% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 240 5% 96%;
+    --secondary: 250 40% 96%;
     --secondary-foreground: 240 10% 8%;
 
-    --muted: 240 5% 96%;
+    --muted: 250 30% 95%;
     --muted-foreground: 240 4% 46%;
 
-    --accent: 269 87% 58%;
+    --accent: 310 85% 65%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 240 6% 90%;
-    --input: 240 6% 90%;
-    --ring: 221 83% 53%;
+    --border: 250 20% 90%;
+    --input: 250 20% 92%;
+    --ring: 180 78% 55%;
 
     --success: 142 71% 45%;
     --success-foreground: 0 0% 100%;
@@ -45,18 +45,28 @@ All colors MUST be HSL.
     --info: 221 83% 53%;
     --info-foreground: 0 0% 100%;
 
-    --wireframe-bg: 240 6% 95%;
-    --wireframe-border: 240 6% 85%;
-    --wireframe-element: 0 0% 100%;
+    /* Diary app specific colors */
+    --diary-coral: 15 90% 70%;
+    --diary-pink: 330 85% 75%;
+    --diary-teal: 180 78% 55%;
+    --diary-purple: 270 85% 70%;
+    --diary-blue: 220 85% 65%;
+    --diary-violet: 260 85% 75%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%), hsl(269 87% 58%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(240 5% 98%));
+    /* Vibrant gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(180 78% 55%), hsl(270 85% 70%));
+    --gradient-coral: linear-gradient(135deg, hsl(15 90% 70%), hsl(330 85% 75%));
+    --gradient-blue: linear-gradient(135deg, hsl(220 85% 65%), hsl(260 85% 75%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(250 30% 98%));
+    --gradient-glass: linear-gradient(145deg, hsl(0 0% 100% / 0.8), hsl(250 30% 98% / 0.6));
     
-    --shadow-soft: 0 2px 8px hsl(240 10% 8% / 0.04);
-    --shadow-medium: 0 4px 16px hsl(240 10% 8% / 0.08);
-    --shadow-strong: 0 8px 32px hsl(240 10% 8% / 0.12);
+    /* Shadows with color tints */
+    --shadow-soft: 0 4px 12px hsl(180 78% 55% / 0.06);
+    --shadow-medium: 0 8px 24px hsl(270 85% 70% / 0.08);
+    --shadow-strong: 0 16px 48px hsl(220 85% 65% / 0.12);
+    --shadow-glow: 0 0 32px hsl(180 78% 55% / 0.2);
 
-    --radius: 0.75rem;
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
